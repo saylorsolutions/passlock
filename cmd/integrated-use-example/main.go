@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	passlock "github.com/saylorsolutions/password-lock"
+	"github.com/saylorsolutions/passlock"
 )
 
 // GenericDataStructure is an example data structure that holds an encrypted payload with a string identifier to allow
