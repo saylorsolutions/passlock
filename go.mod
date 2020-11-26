@@ -1,4 +1,4 @@
-module github.com/saylorsolutions/password-lock
+module github.com/saylorsolutions/passlock
 
 go 1.15
 

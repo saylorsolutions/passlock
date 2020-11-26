@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	passlock "github.com/saylorsolutions/password-lock"
+	"github.com/saylorsolutions/passlock"
 )
 
 const gcmNonceLen = 12

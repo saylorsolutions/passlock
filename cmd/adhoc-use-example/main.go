@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	passlock "github.com/saylorsolutions/password-lock"
+	"github.com/saylorsolutions/passlock"
 )
 
 func main() {
