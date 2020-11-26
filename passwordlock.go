@@ -1,7 +1,7 @@
 // encryption provides a non-portable but easy to use process to password encrypt data. Data nonces and salts are
 // completely handled by the processing methods, so the user only needs to concern themselves with managing the
 // password, plaintext, and ciphertext data.
-package encryption
+package passlock
 
 import (
 	"crypto/aes"

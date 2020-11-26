@@ -1,4 +1,4 @@
-package encryption
+package passlock
 
 import (
 	"fmt"
