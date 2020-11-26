@@ -37,6 +37,9 @@ func (ds *GenericDataStructure) SetSecret(password, secret []byte) error {
 // If the data can not be verified due to an incorrect password or if the data has been tampered with then a non-nil
 // error will be returned.
 func (ds *GenericDataStructure) GetSecret(password []byte) (decryptedData []byte, err error) {
+	if ds.secret == nil || len(ds.secret) == 0 {
+		return []byte{}, nil
+	}
 	decryptedData, err = passlock.DecryptBytes(password, ds.secret)
 	return decryptedData, err
 }
