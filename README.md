@@ -1,3 +1,9 @@
+> Archived!
+>
+> The functionality here has been moved to [gocryptx](https://github.com/saylorsolutions/gocryptx) to consolidate it with other cryptographic helpers, and to extend its capabilities and usability.
+> Because of this migration, this repository is being archived and will no longer be maintained in any way.
+> Please see the linked repository for more details and updates.
+
 # Password Lock
 This library provides an easy to use and well tested method to AES encrypt data
 based on a user provided password generated key.
